@@ -328,3 +328,7 @@ def merge(list1, list2)
 end
 
 # puts merge([1, 4, 2], [3, 9, 10]) #-> 1, 2, 3, 4, 9, 10
+
+puts "It's easy to sync from computer to computer"
+
+puts "Very easy to do"
