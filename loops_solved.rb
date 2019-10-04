@@ -300,3 +300,31 @@ end
 # puts either_2_4([2, 2, 3, 3, 4, 4])
 # puts either_2_4([2, 3, 4, 4, 1])
 # puts either_2_4([2, 5, 6, 3, 1])
+
+def max_span(list)
+
+end
+
+def g_happy(strg)
+
+    strg.size.times do |i|
+        if strg[i] == "g" && strg[i + 1] != "g" || strg[i] == "g" && strg[i - 1] != "g"
+            return false
+        end
+    end
+
+    return true
+
+    
+end
+
+puts g_happy("go to the best gg food place")
+puts g_happy('gg boys')
+
+def merge(list1, list2)
+    combined_list = list1, list2
+
+
+end
+
+# puts merge([1, 4, 2], [3, 9, 10]) #-> 1, 2, 3, 4, 9, 10
